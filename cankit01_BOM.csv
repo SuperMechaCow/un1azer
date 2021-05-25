@@ -1,0 +1,28 @@
+Reference,Value,Footprint,Count,Datasheet,FootprintLib
+D2,LED,LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm,1,~,LED_THT
+D1,IR LED,LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm,1,~,LED_THT
+Q1;Q2,Q_NPN_CBE,SOT-23,2,~,Package_TO_SOT_SMD
+R1;R3,270,R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,2,~,Resistor_SMD
+R2;R4;R7;R8;R5;R6;R9;R10;R11;R12;R13;R14;R15,1K,R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,13,~,Resistor_SMD
+BT1,Battery,BatteryHolder_MPD_BC2003_1x2032,1,~,Battery
+U2;U3,TSOP36238,Vishay_MINICAST-3Pin,2,http://www.vishay.com/docs/82491/tsop382.pdf,OptoDevice
+U1,TSOP38356,Vishay_MINICAST-3Pin,1,http://www.vishay.com/docs/82491/tsop382.pdf,OptoDevice
+U4,ATmega328P-AU,TQFP-32_7x7mm_P0.8mm,1,http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf,Package_QFP
+BZ1,Buzzer,MagneticBuzzer_ProSignal_ABI-010-RC,1,~,Buzzer_Beeper
+J1,External,PinHeader_1x02_P2.54mm_Vertical,1,~,Connector_PinHeader_2.54mm
+J2;J3,SAO Master,PinSocket_2x02_P2.54mm_Vertical,2,~,Connector_PinSocket_2.54mm
+J7,SPI,PinHeader_2x03_P2.54mm_Vertical,1,~,Connector_PinHeader_2.54mm
+J4;J5,SAO Slave,PinHeader_2x02_P2.54mm_Vertical,2,~,Connector_PinHeader_2.54mm
+SW1,Nibbler,SW_DIP_SPSTx04_Slide_6.7x11.72mm_W6.73mm_P2.54mm_LowProfile_JPin,1,,Button_Switch_SMD
+SW2,Hammer,SW_Tactile_SKHH_Angled,1,,Button_Switch_THT
+U5,74HC595,SOIC-16_3.9x9.9mm_P1.27mm,1,http://www.ti.com/lit/ds/symlink/sn74hc595.pdf,Package_SO
+D7;D8;D9;D10;D3;D4;D5;D6,LED,LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,8,~,LED_SMD
+Y1,XTAL,Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm_HandSoldering,1,~,Crystal
+SW3,Trigger,SW_Tactile_SKHH_Angled,1,,Button_Switch_THT
+C2;C1;C3,C,C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,3,~,Capacitor_SMD
+J6,XPANS,PinHeader_1x08_P2.54mm_Vertical,1,~,Connector_PinHeader_2.54mm
+MH1,Barrel,MountingHole_3.2mm_M3,1,~,Mounting_Holes
+MH2,Hammer,MountingHole_3.2mm_M3,1,~,Mounting_Holes
+MH3,Grip,MountingHole_3.2mm_M3,1,~,Mounting_Holes
+MH4,Trigger,MountingHole_3.2mm_M3,1,~,Mounting_Holes
+JP1,Jumper,,1,~,
